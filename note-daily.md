@@ -14,14 +14,9 @@
 
 ## 10h50: Cấu hình backend với database. Tạo CRUD cho 4 bảng customer route_template route_instance user
 
-## 11h30: Tạo trang CRUD cho 4 bảng trên. Cài Tailwind bị lỗi do tailwind 4 bị điên. Cuối cùng fix bằng xóa đi
-cài lại tailwind 3. 12h46 mới fix xong.
+## 11h30: Tạo trang CRUD cho 4 bảng trên. Cài Tailwind bị lỗi do tailwind 4 bị điên. Cuối cùng fix bằng xóa đi cài lại tailwind 3. 12h46 mới fix xong. -> Cụ thể hoàn thiện được như video https://www.youtube.com/watch?v=-7k2QUZdW0g
 
-# 10/07/2025
-## Thêm tất cả module tương ứng các bảng cho backend
-## Viết các chức năng cơ bản cho UI. Cụ thể hoàn thiện được như video https://www.youtube.com/watch?v=-7k2QUZdW0g
-
-# 09/07/2025
+# 09/08/2025
 ## Kiểm tra nếu chưa đăng nhập thì dù vào màn nào cũng tự dẫn về màn /login
 
 # 11/08/2025
