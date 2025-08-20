@@ -25,7 +25,12 @@
 # 20/08/2025
 ## Thêm cronjob hàng ngày kiểm tra hôm nay có route template nào đến ngày lặp lại không, nếu có thì tạo route_instance và route_instance_customer tương ứng
 
+## Thu nhỏ map để chứa toàn bộ điểm định vị khách hàng trong tuyến
+## Bổ sung thêm vài cột trong màn Route Instance
+## Thêm cắm mốc vị trí hiện tại
 Todo:
+
+# Hiện tại màn RouteInstanceDetail đang show list route template customer thay vì route instance customer => sửa
 
 ## Hoàn thiện chức năng màn đi tuyến:
 ### Show thông tin thẻ
@@ -41,3 +46,5 @@ Todo:
 ## Add 3 phương thức ghi định vị cho khách hàng: Get vị trí hiện tại, cắm trên bản đồ, nhập link google map
 ## Thêm 1 bảng setting lưu các setting như bao lâu thì đăng xuất
 ## Phân quyền ai nhìn thấy gì
+
+#
