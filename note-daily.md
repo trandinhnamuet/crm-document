@@ -38,6 +38,8 @@ Todo:
 ### Đánh dấu customer đã đi
 ### 
 
+## THêm chức năng tạo route instance và route instance customer ngay lập tức cho 1 template (chạy khi user kích hoạt hoặc khi mới tạo template) -> UI màn tạo template cần thêm 1 checkbox có tạo instance ngay không
+
 ## Chỉnh sửa UI cho desktop
 ## Update UI cho mobile
 
