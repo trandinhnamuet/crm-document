@@ -1,8 +1,13 @@
-# 09/07/2025
+#07/07/2025
+##Đăng ký google cloud console, tạo API google map đăng ký bằng trandinhnam9095@gmail.com
+https://console.cloud.google.com/apis/credentials?project=dev-ruler-466004-c9
+AIzaSyD8PJk4BXaTbPjsYamAN70o1r98AnNAQWs
 
-## 8h: Xem demo đi tuyến, thiết kế database cho đi tuyến.
+#09/07/2025
 
-## 9h: Khởi tạo FE:React, Vite. Khởi tạo BE:NestJS. Tải và cài Postgresql. Push code lên github repo.
+##8h: Xem demo đi tuyến, thiết kế database cho đi tuyến.
+
+##9h: Khởi tạo FE:React, Vite. Khởi tạo BE:NestJS. Tải và cài Postgresql. Push code lên github repo.
 
 (https://github.com/trandinhnamuet/crm-document)
 
@@ -10,41 +15,90 @@
 
 (https://github.com/trandinhnamuet/crm-backend)
 
-## 10h: Tạo 7 bảng customer, route_template, route_instance, route_template_customer, route_instance_customer, image, route_template_customer_image
+##10h: Tạo 7 bảng customer, route_template, route_instance, route_template_customer, route_instance_customer, image, route_template_customer_image
 
-## 10h50: Cấu hình backend với database. Tạo CRUD cho 4 bảng customer route_template route_instance user
+##10h50: Cấu hình backend với database. Tạo CRUD cho 4 bảng customer route_template route_instance user
 
-## 11h30: Tạo trang CRUD cho 4 bảng trên. Cài Tailwind bị lỗi do tailwind 4 bị điên. Cuối cùng fix bằng xóa đi cài lại tailwind 3. 12h46 mới fix xong. -> Cụ thể hoàn thiện được như video https://www.youtube.com/watch?v=-7k2QUZdW0g
+##11h30: Tạo trang CRUD cho 4 bảng trên. Cài Tailwind bị lỗi do tailwind 4 bị điên. Cuối cùng fix bằng xóa đi cài lại tailwind 3. 12h46 mới fix xong. -> Cụ thể hoàn thiện được như video https://www.youtube.com/watch?v=-7k2QUZdW0g
 
-# 09/08/2025
-## Kiểm tra nếu chưa đăng nhập thì dù vào màn nào cũng tự dẫn về màn /login
+#09/08/2025
+##Kiểm tra nếu chưa đăng nhập thì dù vào màn nào cũng tự dẫn về màn /login
 
-# 11/08/2025
-## Bổ sung route_instance_customer module cho backend (đáng ra thêm từ trước nhưng bị sót)
+#11/08/2025
+##Bổ sung route_instance_customer module cho backend (đáng ra thêm từ trước nhưng bị sót)
+##Triển khai lên server online free
+###Frontend: Vercel                      link
+###Backend: Render                       https://dashboard.render.com/web/srv-d1qvrugdl3ps73esm1o0
+###Database: Supabase                    https://supabase.com/dashboard/project/dfhkhcashblphprgrapx
 
-# 20/08/2025
-## Thêm cronjob hàng ngày kiểm tra hôm nay có route template nào đến ngày lặp lại không, nếu có thì tạo route_instance và route_instance_customer tương ứng
+#20/08/2025
+##Thêm cronjob hàng ngày kiểm tra hôm nay có route template nào đến ngày lặp lại không, nếu có thì tạo route_instance và route_instance_customer tương ứng
 
-## Thu nhỏ map để chứa toàn bộ điểm định vị khách hàng trong tuyến
-## Bổ sung thêm vài cột trong màn Route Instance
-## Thêm cắm mốc vị trí hiện tại
+##Thu nhỏ map để chứa toàn bộ điểm định vị khách hàng trong tuyến
+##Bổ sung thêm vài cột trong màn Route Instance
+##Thêm cắm mốc vị trí hiện tại
 Todo:
 
-# Hiện tại màn RouteInstanceDetail đang show list route template customer thay vì route instance customer => sửa
 
-## Hoàn thiện chức năng màn đi tuyến:
-### Show thông tin thẻ
-### Checkin, Checkout
-### Đánh dấu customer đã đi
-### 
+##Hoàn thiện chức năng màn đi tuyến:
+###Show thông tin thẻ
+###Checkin, Checkout
+###Đánh dấu customer đã đi
 
-## THêm chức năng tạo route instance và route instance customer ngay lập tức cho 1 template (chạy khi user kích hoạt hoặc khi mới tạo template) -> UI màn tạo template cần thêm 1 checkbox có tạo instance ngay không
+##THêm chức năng tạo route instance và route instance customer ngay lập tức cho 1 template (chạy khi user kích hoạt hoặc khi mới tạo template) -> UI màn tạo template cần thêm 1 checkbox có tạo instance ngay không
 
-## Chỉnh sửa UI cho desktop
-## Update UI cho mobile
+##Chỉnh sửa UI cho desktop
+##Update UI cho mobile
 
-## Add 3 phương thức ghi định vị cho khách hàng: Get vị trí hiện tại, cắm trên bản đồ, nhập link google map
-## Thêm 1 bảng setting lưu các setting như bao lâu thì đăng xuất
-## Phân quyền ai nhìn thấy gì
+##Add 3 phương thức ghi định vị cho khách hàng: Get vị trí hiện tại, cắm trên bản đồ, nhập link google map
+##Thêm 1 bảng setting lưu các setting như bao lâu thì đăng xuất
+##Phân quyền ai nhìn thấy gì
 
-#
+##Route Instance là màn chỉ nhìn, không nên có edit hay thêm mới
+
+#21/08/2025
+
+##Thêm folder services và viết file service call api cho frontend với từng controller backend. Sau này frontend call api đều sẽ qua các service này thay vì call trực tiếp tại component: auth,user,customer ,route_instance,route_instance_customer,route_template,route_template_customer
+
+#Hiện tại màn RouteInstanceDetail đang show list cusotmer/by route template thay vì route instance customer => sửa
+
+#Bật APi tính khoảng cách xe máy: check thấy Directions API, Distance Matrix API đều đã bật -> call ko được do call trực tiếp từ frontend
+-> Thêm module call google api cho backend
+
+##THêm chức năng tạo route instance và route instance customer ngay lập tức cho 1 template (chạy khi user kích hoạt hoặc khi mới tạo template) -> UI màn tạo template cần thêm 1 checkbox có tạo instance ngay không
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
