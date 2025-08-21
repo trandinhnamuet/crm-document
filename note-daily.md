@@ -37,8 +37,32 @@ AIzaSyD8PJk4BXaTbPjsYamAN70o1r98AnNAQWs
 ##Thu nhỏ map để chứa toàn bộ điểm định vị khách hàng trong tuyến
 ##Bổ sung thêm vài cột trong màn Route Instance
 ##Thêm cắm mốc vị trí hiện tại
-Todo:
 
+
+#21/08/2025
+
+##Thêm folder services và viết file service call api cho frontend với từng controller backend. Sau này frontend call api đều sẽ qua các service này thay vì call trực tiếp tại component: auth,user,customer ,route_instance,route_instance_customer,route_template,route_template_customer
+
+##Hiện tại màn RouteInstanceDetail đang show list cusotmer/by route template thay vì route instance customer => sửa
+
+##Bật APi tính khoảng cách xe máy: check thấy Directions API, Distance Matrix API đều đã bật -> call ko được do call trực tiếp từ frontend
+-> Thêm module call google api cho backend
+
+##Fix lỗi frontend các route đều hoạt động đúng nhưng riêng route /route-instance-detail/id thì bị 404 Not found như https://crm-frontend-git-main-tran-dinh-nams-projects.vercel.app/route-instance-detail/13.
+-> tạo file vercel.json
+
+##Thêm trường người phụ trách tuyến cho bảng route template và route instance. Người phụ trách của route template có thể thay đổi. Route instance khi được tạo từ template sẽ gắn với người phụ trách hiện tại của template
+
+##Thêm chức năng tạo route instance và route instance customer ngay lập tức cho 1 template (chạy khi user kích hoạt hoặc khi mới tạo template) -> UI màn tạo template cần thêm 1 checkbox có tạo instance ngay không
+
+##Thêm folder migrations để chính sửa database bằng code mỗi khi chạy mới backend
+
+##Sửa logic tính start date và end date cho route instance khi tạo mới: Cover trường hợp repeat on = 7 nhưng hàm chạy vào thứ 5 (do user kích hoạt) -> end date thành thứ 4 tuần sau (vì logic end date = start date + 7), đến thứ 7 cronjob lại chạy tạo route instance mới cho template với start end date là thứ 6 tuần sau -> có khoảng thời gian mà 2 route instance trùng template cùng tồn tại 
+-> sau update: 
+- weekly repeat_on=5: start date = thứ 5, end date = thứ 4 tuần sau
+- monthly repeat_on=5:
+
+Todo:
 
 ##Hoàn thiện chức năng màn đi tuyến:
 ###Show thông tin thẻ
@@ -56,23 +80,7 @@ Todo:
 
 ##Route Instance là màn chỉ nhìn, không nên có edit hay thêm mới
 
-#21/08/2025
-
-##Thêm folder services và viết file service call api cho frontend với từng controller backend. Sau này frontend call api đều sẽ qua các service này thay vì call trực tiếp tại component: auth,user,customer ,route_instance,route_instance_customer,route_template,route_template_customer
-
-#Hiện tại màn RouteInstanceDetail đang show list cusotmer/by route template thay vì route instance customer => sửa
-
-#Bật APi tính khoảng cách xe máy: check thấy Directions API, Distance Matrix API đều đã bật -> call ko được do call trực tiếp từ frontend
--> Thêm module call google api cho backend
-
-##THêm chức năng tạo route instance và route instance customer ngay lập tức cho 1 template (chạy khi user kích hoạt hoặc khi mới tạo template) -> UI màn tạo template cần thêm 1 checkbox có tạo instance ngay không
-
-
-
-
-
-
-
+##Thêm màn thông tin cá nhân user đang đăng nhập và có thể chính sửa
 
 
 
