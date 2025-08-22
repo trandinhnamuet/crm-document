@@ -80,35 +80,27 @@ AIzaSyD8PJk4BXaTbPjsYamAN70o1r98AnNAQWs
 - Thêm màn thông tin cá nhân để xem và sửa thông tin tài khoản 
 - Dark/light mode cho side bar menu. Thêm icon cho các option
 - Thêm button chỉ đường trong phiên làm việc
-- 
+- Thêm đủ 4 phương thức nhập địa chỉ của khách hàng
+- Thêm đủ 4 phương thức nhập địa chỉ của khách hàng
+- Thêm Chức năng: xem lịch sử đi tuyến 1 customer 
 
 Todo:
+- Fix: Đang check in được dù chưa checkout
+- Fix: Đã đi hết route instance customer nhưng route instance vẫn ghi trạng thái chưa hoàn thành
 - thêm cột route instance: đây là lần đi thứ bao nhiêu của tuyến này    
 - thêm trường role cho bảng user để làm phân quyền
-
-- Chức năng: xem lịch sử đi tuyến 1 customer 
+- Trang chủ: Show thông tin tổng quan như list tuyến và % hoàn thành từng tuyến. Cột update tình hình đi tuyến mới nhất: Note + Ảnh. Số tuyến đang hoạt động: 7. Số khách hàng đang trong tuyến: 112. 
 - Bấm vào label sẽ mở link google map dẫn đường. Thêm button chỉ đường cho Card
 - Show thêm số lần đã hoàn thành của 1 tuyến
 
 - Thêm màn thông tin chi tiết lộ trình để xử lý vấn đề màn list lộ trình, cột actions đang có quá nhiều button
-
-##Hoàn thiện chức năng màn đi tuyến:
-###Show thông tin thẻ
-###Checkin, Checkout
-###Đánh dấu customer đã đi
-
-##THêm chức năng tạo route instance và route instance customer ngay lập tức cho 1 template (chạy khi user kích hoạt hoặc khi mới tạo template) -> UI màn tạo template cần thêm 1 checkbox có tạo instance ngay không
-
-##Chỉnh sửa UI cho desktop
-##Update UI cho mobile
-
-##Add 3 phương thức ghi định vị cho khách hàng: Get vị trí hiện tại, cắm trên bản đồ, nhập link google map
-##Thêm 1 bảng setting lưu các setting như bao lâu thì đăng xuất
 ##Phân quyền ai nhìn thấy gì
+
+##Thêm 1 bảng setting lưu các setting như bao lâu thì đăng xuất
+
 
 ##Route Instance là màn chỉ nhìn, không nên có edit hay thêm mới
 
-##Thêm màn thông tin cá nhân user đang đăng nhập và có thể chính sửa
 
 - Chức năng lập lộ trình thông minh để khoảng cách di chuyển là tối thiểu
 
