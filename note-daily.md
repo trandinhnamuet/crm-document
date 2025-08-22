@@ -76,13 +76,22 @@ AIzaSyD8PJk4BXaTbPjsYamAN70o1r98AnNAQWs
 
 - Thêm màn lịch sử thăm 1 customer
 
-Todo:
+- Update UI hàng loạt để show giao diện đẹp trên điện thoại
+- Thêm màn thông tin cá nhân để xem và sửa thông tin tài khoản 
+- Dark/light mode cho side bar menu. Thêm icon cho các option
+- Thêm button chỉ đường trong phiên làm việc
+- 
 
-- Nên làm 1 màn hình khi đang làm việc tại 1 route instance customer thay vì popup
+Todo:
+- thêm cột route instance: đây là lần đi thứ bao nhiêu của tuyến này    
+- thêm trường role cho bảng user để làm phân quyền
 
 - Chức năng: xem lịch sử đi tuyến 1 customer 
 - Bấm vào label sẽ mở link google map dẫn đường. Thêm button chỉ đường cho Card
 - Show thêm số lần đã hoàn thành của 1 tuyến
+
+- Thêm màn thông tin chi tiết lộ trình để xử lý vấn đề màn list lộ trình, cột actions đang có quá nhiều button
+
 ##Hoàn thiện chức năng màn đi tuyến:
 ###Show thông tin thẻ
 ###Checkin, Checkout
@@ -105,11 +114,11 @@ Todo:
 
 - Nếu có nhu cầu đi thăm khách hàng không có trong lộ trình đi tuyến hôm nay thì sao?
 
+- Confirm lại xem mật khẩu sẽ cho admin toàn quyền xem sửa hay ai chỉ biết mật khẩu của người đó, admin cũng không xem được?
 
 
 
-
-
+- Thêm list khách hàng chưa có định vị ra, thêm chức năng lưu/ cập nhật địa chỉ khách hàng trong phiên làm việc đi tuyến với khách hàng đó
 
 
 
