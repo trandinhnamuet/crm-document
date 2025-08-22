@@ -62,8 +62,27 @@ AIzaSyD8PJk4BXaTbPjsYamAN70o1r98AnNAQWs
 - weekly repeat_on=5: start date = thứ 5, end date = thứ 4 tuần sau
 - monthly repeat_on=5:
 
+
+
+
+22/08
+
+- Data checkin nhưng chưa checkout lưu vào đâu? Checkin_at và checkout_at, nếu null thì là false
+- Thêm module backend route instance customer image + image, thêm api upload ảnh cho route instance customer
+
+- Sắp xếp các khách hàng trong 1 route instance: theo is_visited, sau đó theo khoảng cách chim bay
+
+- Làm màn Đi tuyến 1 khách hàng RouteInstanceCustomerDetail: show thông tin, show list ảnh, button thêm ảnh, checkin checkout
+
+- Thêm màn lịch sử thăm 1 customer
+
 Todo:
 
+- Nên làm 1 màn hình khi đang làm việc tại 1 route instance customer thay vì popup
+
+- Chức năng: xem lịch sử đi tuyến 1 customer 
+- Bấm vào label sẽ mở link google map dẫn đường. Thêm button chỉ đường cho Card
+- Show thêm số lần đã hoàn thành của 1 tuyến
 ##Hoàn thiện chức năng màn đi tuyến:
 ###Show thông tin thẻ
 ###Checkin, Checkout
@@ -82,23 +101,9 @@ Todo:
 
 ##Thêm màn thông tin cá nhân user đang đăng nhập và có thể chính sửa
 
+- Chức năng lập lộ trình thông minh để khoảng cách di chuyển là tối thiểu
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+- Nếu có nhu cầu đi thăm khách hàng không có trong lộ trình đi tuyến hôm nay thì sao?
 
 
 
