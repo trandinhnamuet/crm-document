@@ -85,6 +85,7 @@ AIzaSyD8PJk4BXaTbPjsYamAN70o1r98AnNAQWs
 - Thêm Chức năng: xem lịch sử đi tuyến 1 customer 
 
 Todo:
+- Thêm chức năng báo cáo / góp ý
 - Fix: Đang check in được dù chưa checkout
 - Fix: Đã đi hết route instance customer nhưng route instance vẫn ghi trạng thái chưa hoàn thành
 - thêm cột route instance: đây là lần đi thứ bao nhiêu của tuyến này    
